@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node api.js && next dev --turbopack",
-    "build": "next build",
-    "start": "node api.js && next start",
+    "dev": "node init && next dev --turbopack",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -15,7 +15,7 @@
     "imagekitio-next": "^1.0.1",
     "lucide-react": "^0.539.0",
     "mongoose": "^8.16.4",
-    "next": "15.4.3",
+    "next": "^15.5.29",
     "next-auth": "^4.24.11",
     "react": "19.1.0",
     "react-dom": "19.1.0",
@@ -28,7 +28,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "15.4.3",
+    "eslint-config-next": "^15.5.29",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
